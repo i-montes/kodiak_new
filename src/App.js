@@ -1,26 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
+import NavBar from './components/navbar/navbar';
+import { BrowserRouter as Router, Switch,Route } from "react-router-dom";
+import ContentHome from './components/home/home';
+import WorkContent from './components/work/work';
+// import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+const Home = () => (<div className="home"> <NavBar/> <ContentHome/> </div>)
+
+const Work = () => ( <div className="work"> <NavBar /> <WorkContent /> </div> )
+
+
+class App extends Component {
+
+  render() {
+
+    return (
+      <Router>
+          <Switch>
+            <Route path="/" exact component={Home} />
+            <Route path="/Portafolio" exact component={Work} />
+          </Switch>
+      </Router>
+    )
+  }
 }
+
+
 
 export default App;
