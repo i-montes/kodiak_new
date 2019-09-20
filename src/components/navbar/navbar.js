@@ -13,19 +13,19 @@ export default class NavBar extends Component {
         <div className="col-md-12">
           <ul>
             <li className="active">
-              <a href="index.html">Inicio</a>
+              <a href="/">Inicio</a>
+            </li> 
+            <li>
+              <a href="/Portfolio">Portafolio</a>
             </li>
             <li>
-              <a href="/Portafolio">Portafolio</a>
+              <a href="/Blog">Blog</a>
             </li>
             <li>
-              <a href="blog.html">Blog</a>
+              <a href="/About">Acerca de nosotros</a>
             </li>
             <li>
-              <a href="about.html">Acerca de nosotros</a>
-            </li>
-            <li>
-              <a href="contact.html">Contacto</a>
+              <a href="/Contact">Contacto</a>
             </li>
           </ul>
         </div>

@@ -9,7 +9,7 @@ export default class ContentHome extends Component {
       <div className="row">
         <div className="col-md-12">
           <div className="colorlib-navbar-brand">
-            <a className="colorlib-logo" href="index.html">
+            <a className="colorlib-logo" href="/">
               KodiakDesing
             </a>
           </div>
@@ -27,7 +27,7 @@ export default class ContentHome extends Component {
           <div className="col-three-forth">
             <div
               className="hero-img js-fullheight"
-              style={{ backgroundImage: "url(images/img_bg_1.jpg)" }}
+              style={{ backgroundImage: "url(images/slider_home/2651929.png)" }}
             />
           </div>
           <div className="col-one-forth js-fullheight">
@@ -37,15 +37,12 @@ export default class ContentHome extends Component {
                 <div className="text-inner">
                   <div className="desc">
                     <span className="tag">Bienvenido</span>
-                    <h2>Diseños irresistibles.</h2>
+                    <h2>DESARROLLO WEB.</h2>
                     <p>
-                      A small river named Duden flows by their place and
-                      supplies it with the necessary regelialia. It is a
-                      paradisematic country, in which roasted parts of sentences
-                      fly into your mouth.
+                    Concepto claro + Diseño atractivo + Desarrollo preciso = ¡Página web asombrosa! Para esto, nos apoyamos en metodologías ágiles como Kanban, Scrum, conversión en mente, y otros.
                     </p>
                     <p>
-                      <a href="work.html" className="btn-view">
+                      <a href="/Portfolio" className="btn-view">
                         Ver portafolio <i className="icon-arrow-right3" />
                       </a>
                     </p>
@@ -61,7 +58,7 @@ export default class ContentHome extends Component {
           <div className="col-three-forth">
             <div
               className="hero-img js-fullheight"
-              style={{ backgroundImage: "url(images/img_bg_2.jpg)" }}
+              style={{ backgroundImage: "url(images/slider_home/340668-PA9Q77-236.png)" }}
             />
           </div>
           <div className="col-one-forth js-fullheight">
@@ -71,15 +68,12 @@ export default class ContentHome extends Component {
                 <div className="text-inner">
                   <div className="desc">
                     {/* <span class="tag">Photography</span> */}
-                    <h2>Captura los momentos.</h2>
+                    <h2>DESARROLLO DE APLICACIONES.</h2>
                     <p>
-                      A small river named Duden flows by their place and
-                      supplies it with the necessary regelialia. It is a
-                      paradisematic country, in which roasted parts of sentences
-                      fly into your mouth.
+                    Más de 15.900 horas de desarrollo...y contando. iOS, Android, API’s, cloud backend… Nómbralo, y ¡lo hacemos!
                     </p>
                     <p>
-                      <a href="work.html" className="btn-view">
+                      <a href="/Portfolio" className="btn-view">
                         Ver portafolio <i className="icon-arrow-right3" />
                       </a>
                     </p>
@@ -95,7 +89,7 @@ export default class ContentHome extends Component {
           <div className="col-three-forth">
             <div
               className="hero-img js-fullheight"
-              style={{ backgroundImage: "url(images/img_bg_3.jpg)" }}
+              style={{ backgroundImage: "url(images/slider_home/2849327.png)" }}
             />
           </div>
           <div className="col-one-forth js-fullheight">
@@ -105,15 +99,12 @@ export default class ContentHome extends Component {
                 <div className="text-inner">
                   <div className="desc">
                     <span className="tag">Descubrir</span>
-                    <h2>Descubre nuevas opciones</h2>
+                    <h2>Posicionamiento en Google + Redes</h2>
                     <p>
-                      A small river named Duden flows by their place and
-                      supplies it with the necessary regelialia. It is a
-                      paradisematic country, in which roasted parts of sentences
-                      fly into your mouth.
+                    Convertimos a tu Empresa en un referente del segmento pagando solo por clic o resultado.
                     </p>
                     <p>
-                      <a href="work.html" className="btn-view">
+                      <a href="/Portfolio" className="btn-view">
                         Ver portafolio <i className="icon-arrow-right3" />
                       </a>
                     </p>
