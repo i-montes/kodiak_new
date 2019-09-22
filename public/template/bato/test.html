@@ -95,7 +95,7 @@
 		</div>
 	</nav>
 
-	<style>
+	<style> 
 	.fullscreen-bg {
 	position: fixed;
 	top: 0;
@@ -137,16 +137,79 @@
 		/* display: none; */
 	}
 	}
+	html, body
+{
+    height: 100%;
+    margin:0;
+	padding:0;
+	/* overflow:hidden; */
+}
+
+.containerImage {
+    position:relative;
+    height: 100%;
+    width:100%;
+}
+
+.containerImage .centerImage {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}
+
+.containerImage p, span {
+    margin-bottom: 1.5em;
+    font-weight: 400;
+	font-family: "Karla", Arial, sans-serif;
+}
+.containerImage p {
+    margin: 0 0 10px;
+	margin-bottom: 10px;
+}
+.btn-view {
+    font-size: 13px;
+    letter-spacing: 7px;
+    color: 
+#fff;
+text-transform: uppercase;
+border: 1px solid
+    #fff;
+    padding: 7px;
+	text-decoration: none;	
+}
+
+.fullscreenDiv {
+    /* background-color: #e8e8e8; */
+    width: 100%;
+    height: auto;
+    bottom: 0px;
+    top: 400px;
+    left: 0;
+    position: absolute;
+}
+.center {
+    position: absolute;
+    /* width: 100px; */
+    height: 150px;
+    top: 50%;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -120px;
+}
+
 	</style>
+
 
 	<div class="fullscreen-bg">
 		<video loop muted autoplay poster="images/about.jpg" class="fullscreen-bg__video">
 			<source src="particles.mp4" type="video/mp4">
 		</video>
 	</div>
-	
-	<div id="colorlib-page">
-		<header>
+
+	<header>
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
@@ -158,35 +221,17 @@
 				</div>
 			</div>
 		</header>
-		<div id="colorlib-hero" class="js-fullheight">
-			
-			<!-- <div class="owl-carousel"> -->
-				<div class="item">
-					<div class="hero-flex js-fullheight">
-						<div class="col-three-forth">
-							<div class="hero-img js-fullheight" style="background-image: url(images/img_bg_3.4jpg);"></div>
-						</div>
-						<div class="col-one-forth js-fullheight">
-							<!-- <h2 class="number">03/03</h2> -->
-							<div class="display-t js-fullheight">
-								<div class="display-tc js-fullheight">
-									<div class="text-inner">
-										<div class="desc">
-											<!-- <span class="tag">Descubrir</span> -->
-											<!-- <h2>Descubre nuevas opciones</h2> -->
-											<img  width="300px" src="./images/logo.png" alt=""><br><br>
-											<p><a href="work.html" class="btn-view">Ver portafolio <i class="icon-arrow-right3"></i></a></p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			<!-- </div>
-		</div> -->
-	
+
+
+	<div class="containerImage">
+		<img class="centerImage" width="300px" src="./images/logo.png">	
+		
+		<div class='fullscreenDiv'>
+			<div class="center"><p class="centerText"><a href="work.html" class="btn-view">Ver portafolio <i class="icon-arrow-right3"></i></a></p></div>
+		</div>
 	</div>
+	
+	
 
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
